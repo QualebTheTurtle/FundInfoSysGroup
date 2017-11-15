@@ -17,9 +17,11 @@ $parser = new Parsedown();
 	<?php 
 		$posts = scandir("md/");
 		foreach ($posts as $p) {
-			$md = file_get_contents('md/' . $p);
-			$md = $parser->text($md);
-			echo $md;
+			if (preg_match('/\W.md/',$p)) {
+				$md = file_get_contents('md/' . $p);
+				$md = $parser->text($md);
+				echo $md;
+			}
 		}
 	 ?>
 	 </main>
