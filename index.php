@@ -16,12 +16,13 @@ $parser = new Parsedown();
 	<main>
 	<?php 
 		//BLOG-POST LOADER
-		echo "\n";
 		$posts = scandir("md/");
 		foreach ($posts as $p) {
 			if (preg_match('/^.+\.(md)$/',$p)) {
 				$md = file_get_contents('md/' . $p);
 				$md = $parser->text($md);
+				echo "\n";
+				echo "<!--BLOG-POST-->\n";
 				echo "<div id='blog-post'>\n";
 				echo $md . "\n";
 				echo "</div>\n";

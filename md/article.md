@@ -1,7 +1,7 @@
 Response: 11 Predictions for the Future of Programming
 ======================================================
 
-###Overall I really enjoyed the article and it gave me a lot to think about. On most accounts I agree with the author, although I am very surprised that blockchain technology was not mentioned. With major banks looking into the technology and significant investment already in platforms like Bitcoin and Ethereum I found it Surprising. The following are a few of my responses to specific predictions in the article.
+Overall I really enjoyed the article and it gave me a lot to think about. On most accounts I agree with the author, although I am very surprised that blockchain technology was not mentioned. With major banks looking into the technology and significant investment already in platforms like Bitcoin and Ethereum I found it Surprising. The following are a few of my responses to specific predictions in the article.
 
 ####Cloud computing will defeat Moore's Law.
  [Moore's law][1] is the observation that the number of transistors in a dense integrated circuit doubles on average every two years. As a result procescing speed doubled every two years. There were recent concerns that this trend has started to slow down and therefore technogy and processing potential would hit a wall, but this article alledges that cloud computing will solve the dilehma by removing the burdon of processing power from the client, to the server which is far more capable of growing in processing power. This appears to be a reasonable claim  as the trend seems to move towards cloud-based-services and cloud-based-archetecture. 
