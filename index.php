@@ -15,7 +15,6 @@ $parser = new Parsedown();
 <body>
 	<main>
 	<?php 
-		//BLOG-POST LOADER
 		$posts = scandir("md/");
 		foreach ($posts as $p) {
 			if (preg_match('/^.+\.(md)$/',$p)) {
@@ -33,3 +32,5 @@ $parser = new Parsedown();
 	 </main>
 </body>
 </html>
+
+
