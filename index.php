@@ -15,15 +15,16 @@ $parser = new Parsedown();
 <body>
 	<main>
 	<?php 
-		$posts = scandir("md/");
-		foreach ($posts as $p) {
-			if (preg_match('/^.+\.(md)$/',$p)) {
-				$md = file_get_contents('md/' . $p);
-				$md = $parser->text($md);
+// Markdown Converter and Loader
+		$posts = scandir("md/"); // gets markdown files from md directory
+		foreach ($posts as $p) { // iterates through $posts
+			if (preg_match('/^.+\.(md)$/',$p)) { // RegularExpression that gets only the .md files
+				$md = file_get_contents('md/' . $p); // gets the content of the md file
+				$md = $parser->text($md); // uses parser to create md section
 				echo "\n";
-				echo "<!--BLOG-POST-->\n";
-				echo "<div id='blog-post'>\n";
-				echo $md . "\n";
+				echo "<!--BLOG-POST-->\n"; // adds a comment
+				echo "<div id='blog-post'>\n"; // creates a division for the content
+				echo $md . "\n"; // echos out converted markdown
 				echo "</div>\n";
 			}
 		}
