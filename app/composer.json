@@ -1,0 +1,6 @@
+{
+    "name": "fund-info-sys-group/blog",
+    "require": {
+				"erusev/parsedown": "^1.6"
+		}
+}
