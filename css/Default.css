@@ -17,7 +17,7 @@ body
 
 body, #nav, #footer
 {
-	background-image: url("../img/broken-noise.png");
+	background-image: url("../public/img/broken-noise.png");
 }
 
 /*#wrapper
@@ -45,8 +45,8 @@ nav
 
 nav img 
 {
-	margin-left: 15px;
-	margin-top: 10px;
+	/*margin-left: 15px;*/
+	/*margin-top: 10px;*/
 	max-height: 60px;
 	float:left;
 }
@@ -88,7 +88,7 @@ header
 	text-align: center;
 	background-color: rgb(99,155,153);
 	background-color: rgb(27, 93, 24);
-	background-image: url("../img/bg4.png");
+	background-image: url("../public/img/bg4.png");
 	display: inline-block;
 	width: 100%;
 	font-size: 3em;
@@ -134,6 +134,23 @@ main a
 	text-decoration: none;
 }
 
+#blog-posts
+{
+	width: 80%;
+	margin: 0 auto;
+	background-color: none;
+}
+
+.blog-post
+{
+	width: 80%;
+	margin: 0 auto;
+	background-color: white;
+	padding: 15px;
+	color: black;
+	margin-bottom: 15px;
+	border-radius: 25px;
+}
 
 .about 
 {
