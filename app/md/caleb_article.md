@@ -1,5 +1,5 @@
 Response: Future Proof Your IT Career
-=====================================
+-------------------------------------
 ###### Caleb Wagner
 
 ### Critical Analysis
