@@ -1,5 +1,5 @@
 Response: 11 Predictions for the Future of Programming
-======================================================
+ ------------------------------------------------------
 ###### Matt Markwald
 
 Overall I really enjoyed the article and it gave me a lot to think about. On most accounts I agree with the author, although I am very surprised that blockchain technology was not mentioned. With major banks looking into the technology and significant investment already in platforms like Bitcoin and Ethereum I found it Surprising. The following are a few of my responses to specific predictions in the article.
