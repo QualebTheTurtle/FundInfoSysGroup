@@ -1,6 +1,6 @@
 Response: That Time Bill Gates and Steve Jobs Argued about the Future of Computers
 ------------------------------------------------------------------------
-##### Devin Brough
+###### Devin Brough
 
 The article explores the different views Bill Gates and Steve Jobs had for handling the Computer. 
 For Bill the computer was a way of developing his software in a way that would be, not just methodical, but also direct. Each step building on the business of the computer while growing with the business.
