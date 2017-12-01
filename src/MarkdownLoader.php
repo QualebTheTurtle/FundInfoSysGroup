@@ -33,7 +33,7 @@ class MarkdownLoader
 
 	private function ConvertMarkdown()
 	{
-		$rHtml = "";
+		$rHtml = "<div id='blog-posts'>\n";
 		$parser = new \Parsedown();
 		foreach ($this->posts as $p) {
 			if ($this->CheckExtension($p)) {
@@ -41,12 +41,12 @@ class MarkdownLoader
 			$md = $parser->text($md); // uses parser to create md section
 			$rHtml .= "\n";
 			$rHtml .= "<!--BLOG-POST-->\n"; // adds a comment
-			$rHtml .= "<div id='blog-post'>\n"; // creates a division for the content
+			$rHtml .= "<div class='blog-post'>\n"; // creates a division for the content
 			$rHtml .= $md . "\n"; // adds converted markdown to $html
 			$rHtml .= "</div>\n";
 			}
 		}
-		$this->html .= "\n";
+		$rHtml .= "</div>\n";
 		return $rHtml;
 	}
 
