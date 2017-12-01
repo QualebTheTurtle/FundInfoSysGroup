@@ -17,7 +17,7 @@ body
 
 body, #nav, #footer
 {
-	background-image: url("../img/broken-noise.png");
+	background-image: url("../public/img/broken-noise.png");
 }
 
 /*#wrapper
@@ -88,7 +88,7 @@ header
 	text-align: center;
 	background-color: rgb(99,155,153);
 	background-color: rgb(27, 93, 24);
-	background-image: url("../img/bg4.png");
+	background-image: url("../public/img/bg4.png");
 	display: inline-block;
 	width: 100%;
 	font-size: 3em;

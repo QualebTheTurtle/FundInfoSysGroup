@@ -16,7 +16,7 @@ require VENDOR . 'autoload.php';
 	<body>
 		<div id="wrapper">
 			<nav>
-				<div class="nav-img"><a href="index.html"><img src="styles/grnSDG.png" alt="cat"></a></div>
+				<div class="nav-img"><a href="index.html"><img src="public/img/grnSDG.png" alt="cat"></a></div>
 				<div class="nav-links">
 					<a id="nav-index" href="index.html">Home</a>
 					<a id="nav-about" href="#">About</a>
