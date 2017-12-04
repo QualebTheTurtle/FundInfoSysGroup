@@ -2,5 +2,10 @@
     "name": "fund-info-sys-group/blog",
     "require": {
 				"erusev/parsedown": "^1.6"
+		},
+		"autoload": {
+			"psr-4": {
+				"Controller\\": "src/"
+			}
 		}
 }
